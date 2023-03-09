@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 h2{
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #34495E;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container{
+  border: solid #34495E 2px;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 5px 10px #41B883;
+}
+
+
+
+
+.upper{
+  text-align: center;
+}
+
+.btn-remove{
+  background-color: #E30000;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 2px 2px #34495E;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+.fa{
+  color: white;
+}
+
+.btn-primary{
+  background-color: #34495E;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px #41B883;
+}
+
+.empty{
+  color: white;
+  background-color: #E30000 ;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px black;
+}
+.btn-primary:hover{
+  background-color: #41B883;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px #34495E;
+}
+
+.btn-primary:focus{
+  background-color: #41B883;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px #34495E;
+}
+
+.btn-primary:active{
+  background-color: #41B883;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px #34495E;
+  transform: translate(5px, 5px);
+}
+
+.btn-primary:active::before{
+  background-color: #41B883;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: 5px 5px #34495E;
+}
+
+.form-control{
+  border: solid #34495E 2px;
+}
+
+.form-control:focus{
+  border: solid #41B883 2px;
+  box-shadow: 2px  2px 2px #41B883;
+}
+
+
+
+
